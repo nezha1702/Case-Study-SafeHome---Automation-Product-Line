@@ -1,5 +1,4 @@
-**Edit by Chor Channe**
-## Author : Channe Sava
+## Author : Chor Channe 
 # 01-Homeowner Requirements: SafeHome Product Line Case Study(Testing)
 
 ## 1. System Context & Overview
