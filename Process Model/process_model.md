@@ -22,7 +22,7 @@ An **Iterative/Incremental Process Model** is recommended for this project. The 
 ---
 
 ### 4. Phase 2: Requirements Gathering (URS)
-
+---
 The User Requirements Specification (URS) defines what the user needs:
 
 - **URS-01:** The user shall be able to Arm the security system.
