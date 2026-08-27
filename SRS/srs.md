@@ -11,23 +11,23 @@ The SafeHome system provides integrated security management and home automation 
 
 | Requirement ID | System Requirement | Traces to URD | Source Classification |
 | :--- | :--- | :--- | :--- |
-| **SR-F01** | The system shall provide a user authentication mechanism requiring a valid passcode/password before granting access to control features[cite: 1]. | F-HO-01, NF-HO-01 | **Explicit** (Pressman Ch. 5, 6)[cite: 1] |
-| **SR-F02** | The system shall accept commands to Arm (Away/Home) and Disarm the security system[cite: 1]. | F-HO-01 | **Explicit** (Pressman Ch. 6)[cite: 1] |
-| **SR-F03** | The system shall continuously read digital signals from installed sensors (motion, contact, environmental)[cite: 1]. | F-HO-02 | **Explicit** (Pressman Ch. 7)[cite: 1] |
-| **SR-F04** | Upon receiving an intrusion signal while armed, the system shall activate the local audible alarm/siren[cite: 1]. | F-HO-03 | **Explicit** (Pressman Ch. 7)[cite: 1] |
-| **SR-F05** | The system shall place an automated call/data transmission to a designated monitoring agency upon alarm activation[cite: 1]. | F-HO-03 | **Explicit** (Pressman Ch. 6, 7)[cite: 1] |
-| **SR-F06** | The system shall route video signals from home cameras to the user display interface[cite: 1]. | F-HO-04 | **Explicit** (Pressman Ch. 6, 9)[cite: 1] |
-| **SR-F07** | The system shall display alarm zone status and specific sensor location during an alert state[cite: 1]. | F-HO-05 | **Explicit** (Pressman Ch. 6)[cite: 1] |
-| **SR-F08** | The system shall allow the user to configure system parameters (e.g., delay times, passcodes, sensor zones)[cite: 1]. | F-HO-06 | **Derived/Interpreted** (Pressman Ch. 5, 6)[cite: 1] |
+| **SR-F01** | The system shall provide a user authentication mechanism requiring a valid passcode/password before granting access to control features[cite: 1]. | UF-01, Non-UF-01 | **Explicit** (Pressman Ch. 5, 6)[cite: 1] |
+| **SR-F02** | The system shall accept commands to Arm (Away/Home) and Disarm the security system[cite: 1]. | UF-01 | **Explicit** (Pressman Ch. 6)[cite: 1] |
+| **SR-F03** | The system shall continuously read digital signals from installed sensors (motion, contact, environmental)[cite: 1]. | UF-02 | **Explicit** (Pressman Ch. 7)[cite: 1] |
+| **SR-F04** | Upon receiving an intrusion signal while armed, the system shall activate the local audible alarm/siren[cite: 1]. | UF-03 | **Explicit** (Pressman Ch. 7)[cite: 1] |
+| **SR-F05** | The system shall place an automated call/data transmission to a designated monitoring agency upon alarm activation[cite: 1]. | UF-03 | **Explicit** (Pressman Ch. 6, 7)[cite: 1] |
+| **SR-F06** | The system shall route video signals from home cameras to the user display interface[cite: 1]. | UF-04 | **Explicit** (Pressman Ch. 6, 9)[cite: 1] |
+| **SR-F07** | The system shall display alarm zone status and specific sensor location during an alert state[cite: 1]. | UF-05 | **Explicit** (Pressman Ch. 6)[cite: 1] |
+| **SR-F08** | The system shall allow the user to configure system parameters (e.g., delay times, passcodes, sensor zones)[cite: 1]. | UF-06 | **Derived/Interpreted** (Pressman Ch. 5, 6)[cite: 1] |
 
 ### 2.2 Non-Functional Requirements (NFR)
 
 | Requirement ID | System Requirement | Traces to URD | Source Classification |
 | :--- | :--- | :--- | :--- |
-| **SR-NF01** | **Security**: Passcodes and control transmissions must be protected against unauthorized access and tampering[cite: 1]. | NF-HO-01 | **Explicit** (Pressman Ch. 5, 14)[cite: 1] |
-| **SR-NF02** | **Performance/Real-Time Response**: Sensor input processing and state transitions must occur within strict deterministic time bounds[cite: 1]. | NF-HO-04 | **Explicit** (Pressman Ch. 7, 18)[cite: 1] |
-| **SR-NF03** | **Usability**: Graphical user interfaces must conform to standard usability patterns to minimize user cognitive memory load[cite: 1]. | NF-HO-02 | **Explicit** (Pressman Ch. 11)[cite: 1] |
-| **SR-NF04** | **Reliability**: The software system must operate continuously without unhandled exceptions or system failure during operation[cite: 1]. | NF-HO-03 | **Explicit** (Pressman Ch. 14, 16)[cite: 1] |
+| **SR-NF01** | **Security**: Passcodes and control transmissions must be protected against unauthorized access and tampering[cite: 1]. | Non-UF-01 | **Explicit** (Pressman Ch. 5, 14)[cite: 1] |
+| **SR-NF02** | **Performance/Real-Time Response**: Sensor input processing and state transitions must occur within strict deterministic time bounds[cite: 1]. | Non-UF-04 | **Explicit** (Pressman Ch. 7, 18)[cite: 1] |
+| **SR-NF03** | **Usability**: Graphical user interfaces must conform to standard usability patterns to minimize user cognitive memory load[cite: 1]. | Non-UF-02 | **Explicit** (Pressman Ch. 11)[cite: 1] |
+| **SR-NF04** | **Reliability**: The software system must operate continuously without unhandled exceptions or system failure during operation[cite: 1]. | Non-UF-03 | **Explicit** (Pressman Ch. 14, 16)[cite: 1] |
 
 ---
 
@@ -78,11 +78,11 @@ Non-functional requirements act as direct operational constraints on functional 
 
 | Stakeholder Need | URD | SRS | UML / Design Element | Source |
 | :--- | :--- | :--- | :--- | :--- |
-| Secure access control | F-HO-01, NF-HO-01 | SR-F01, SR-NF01 | `ControlPanel::validatePasscode()` | Ch. 5, 6, 11[cite: 1] |
-| System status control | F-HO-01 | SR-F02 | `Arm/Disarm System` Use Case | Ch. 6[cite: 1] |
-| Intrusion Detection | F-HO-02, F-HO-03 | SR-F03, SR-F04 | `Sensor` class, `Monitor Sensors` Use Case | Ch. 6, 7[cite: 1] |
-| Emergency notification | F-HO-03 | SR-F05 | `Alarm::notifyAgency()` | Ch. 6, 7[cite: 1] |
-| Remote Visuals | F-HO-04 | SR-F06 | `Camera` class, `View Video Stream` Use Case | Ch. 6, 9[cite: 1] |
+| Secure access control | UF-01, Non-UF-01 | SR-F01, SR-NF01 | `ControlPanel::validatePasscode()` | Ch. 5, 6, 11[cite: 1] |
+| System status control | UF-01 | SR-F02 | `Arm/Disarm System` Use Case | Ch. 6[cite: 1] |
+| Intrusion Detection | UF-02, UF-03 | SR-F03, SR-F04 | `Sensor` class, `Monitor Sensors` Use Case | Ch. 6, 7[cite: 1] |
+| Emergency notification | UF-03 | SR-F05 | `Alarm::notifyAgency()` | Ch. 6, 7[cite: 1] |
+| Remote Visuals | UF-04 | SR-F06 | `Camera` class, `View Video Stream` Use Case | Ch. 6, 9[cite: 1] |
 
 ---
 
