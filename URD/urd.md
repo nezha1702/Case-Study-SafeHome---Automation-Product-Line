@@ -46,13 +46,13 @@
 
 ## 5. Non-Functional Homeowner Requirements
 
-* **NUF-01: Security & Authentication**
+* **Non-UF-01: Security & Authentication**
   * System functions (arming, disarming, configuration) must require valid user password/passcode authentication to prevent unauthorized tampering[cite: 1].
-* **NUF-02: Usability**
+* **Non-UF-02: Usability**
   * The user interface must be intuitive, easy to navigate, and minimize memory load for non-technical homeowners[cite: 1].
-* **NUF-03: Reliability & Dependability**
+* **Non-UF-03: Reliability & Dependability**
   * The system must operate reliably without system crashes, ensuring continuous protection of the home[cite: 1].
-* **NUF-04: Performance & Timeliness**
+* **Non-UF-04: Performance & Timeliness**
   * The system must process sensor state changes and trigger alarm responses within critical real-time bounds upon intrusion detection[cite: 1].
 
 ---
