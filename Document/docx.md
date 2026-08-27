@@ -22,23 +22,23 @@ HomeSafe គឺជាប្រព័ន្ធ **Smart Home Security** ដែល�
 
 ប្រព័ន្ធនេះភ្ជាប់៖
 
-* Sensors
-* Cameras
-* Alarm
-* Local Control Hub
-* Mobile Application
+- Sensors
+- Cameras
+- Alarm
+- Local Control Hub
+- Mobile Application
 
 ដើម្បីឱ្យម្ចាស់ផ្ទះអាចត្រួតពិនិត្យ និងគ្រប់គ្រងផ្ទះបានទាំងនៅក្នុងផ្ទះ និងពីចម្ងាយ។
 
 ## 1.4 មុខងារសំខាន់ៗ
 
-* Smart Security
-* Camera Surveillance
-* Intrusion Detection
-* Alarm / Siren
-* Remote Monitoring
-* Smart Automation
-* Mobile Access
+- Smart Security
+- Camera Surveillance
+- Intrusion Detection
+- Alarm / Siren
+- Remote Monitoring
+- Smart Automation
+- Mobile Access
 
 ---
 
@@ -50,13 +50,13 @@ HomeSafe ប្រើប្រាស់បច្ចេកវិទ្យា **Io
 
 ឧបករណ៍សំខាន់ៗមាន៖
 
-* **Motion Sensor** – រកចលនា
-* **Door / Window Sensor** – ពិនិត្យទ្វារ និងបង្អួច
-* **Glass Break Sensor** – រកការបែកកញ្ចក់
-* **Security Camera** – មើល និងថតវីដេអូ
-* **Siren / Alarm** – បន្លឺសំឡេងពេលមានហេតុការណ៍
-* **Mobile App** – គ្រប់គ្រងពីទូរស័ព្ទ
-* **Local Control Hub** – គ្រប់គ្រងឧបករណ៍ក្នុងផ្ទះ
+- **Motion Sensor** – រកចលនា
+- **Door / Window Sensor** – ពិនិត្យទ្វារ និងបង្អួច
+- **Glass Break Sensor** – រកការបែកកញ្ចក់
+- **Security Camera** – មើល និងថតវីដេអូ
+- **Siren / Alarm** – បន្លឺសំឡេងពេលមានហេតុការណ៍
+- **Mobile App** – គ្រប់គ្រងពីទូរស័ព្ទ
+- **Local Control Hub** – គ្រប់គ្រងឧបករណ៍ក្នុងផ្ទះ
 
 ## 2.2 បញ្ហាដែលគម្រោងចង់ដោះស្រាយ
 
@@ -77,39 +77,39 @@ HomeSafe ប្រើប្រាស់បច្ចេកវិទ្យា **Io
 
 ## 3.2 គោលបំណងរង
 
-* ការពារទ្រព្យសម្បត្តិ និងលំនៅដ្ឋាន
-* ផ្តល់ User Authentication ដែលមានសុវត្ថិភាព
-* ត្រួតពិនិត្យ Sensors ជាបន្តបន្ទាប់
-* រកឃើញ Intrusion Events
-* ផ្ញើ Security Alerts
-* មើល Live Camera និងថតវីដេអូ
-* គ្រប់គ្រងប្រព័ន្ធពី Mobile App
-* គាំទ្រ User Roles និង Permissions
-* ធានា Reliability និង Security
+- ការពារទ្រព្យសម្បត្តិ និងលំនៅដ្ឋាន
+- ផ្តល់ User Authentication ដែលមានសុវត្ថិភាព
+- ត្រួតពិនិត្យ Sensors ជាបន្តបន្ទាប់
+- រកឃើញ Intrusion Events
+- ផ្ញើ Security Alerts
+- មើល Live Camera និងថតវីដេអូ
+- គ្រប់គ្រងប្រព័ន្ធពី Mobile App
+- គាំទ្រ User Roles និង Permissions
+- ធានា Reliability និង Security
 
 ## 3.3 Scope – អ្វីដែលគម្រោងមាន
 
-* Login / Authentication
-* PIN និង Fingerprint
-* Family / Guest Roles
-* Home / Away / Disarm
-* Scheduled Arming / Disarming
-* Motion / Door / Window / Glass Break Detection
-* Live Camera
-* Video Recording
-* Siren
-* Push Notification
-* SMS Alert
-* Device Configuration
-* Security Event Logs
+- Login / Authentication
+- PIN និង Fingerprint
+- Family / Guest Roles
+- Home / Away / Disarm
+- Scheduled Arming / Disarming
+- Motion / Door / Window / Glass Break Detection
+- Live Camera
+- Video Recording
+- Siren
+- Push Notification
+- SMS Alert
+- Device Configuration
+- Security Event Logs
 
 ## 3.4 Out of Scope – អ្វីដែលមិនទាន់រួមបញ្ចូល
 
-* ភ្ជាប់ដោយផ្ទាល់ទៅប៉ូលិស ឬ Emergency Service
-* Professional Security Monitoring Center
-* Advanced AI Facial Recognition
-* Full Smart Energy Management
-* Full Smart Water Management
+- ភ្ជាប់ដោយផ្ទាល់ទៅប៉ូលិស ឬ Emergency Service
+- Professional Security Monitoring Center
+- Advanced AI Facial Recognition
+- Full Smart Energy Management
+- Full Smart Water Management
 
 ---
 
@@ -119,11 +119,11 @@ HomeSafe ប្រើប្រាស់បច្ចេកវិទ្យា **Io
 
 ម្ចាស់ផ្ទះមានសិទ្ធិគ្រប់គ្រងមុខងារសំខាន់ៗ ដូចជា៖
 
-* Arm / Disarm
-* មើល Camera
-* មើល Alerts
-* មើល Recordings
-* គ្រប់គ្រង Family Members
+- Arm / Disarm
+- មើល Camera
+- មើល Alerts
+- មើល Recordings
+- គ្រប់គ្រង Family Members
 
 ## 4.2 Family Member
 
@@ -133,8 +133,8 @@ HomeSafe ប្រើប្រាស់បច្ចេកវិទ្យា **Io
 
 ភ្ញៀវអាចទទួលបាន៖
 
-* Temporary Access
-* Limited Access
+- Temporary Access
+- Limited Access
 
 តាម Permission ដែលបានកំណត់។
 
@@ -142,19 +142,19 @@ HomeSafe ប្រើប្រាស់បច្ចេកវិទ្យា **Io
 
 Admin គ្រប់គ្រង៖
 
-* Users
-* Devices
-* Sensors
-* Cameras
-* Alarm
-* Notification Settings
+- Users
+- Devices
+- Sensors
+- Cameras
+- Alarm
+- Notification Settings
 
 ## 4.5 IoT Devices
 
 Sensors និង Cameras ផ្ញើ៖
 
-* Events
-* Status
+- Events
+- Status
 
 ទៅកាន់ HomeSafe System។
 
@@ -170,12 +170,12 @@ URS មានន័យថា **តម្រូវការរបស់អ្ន�
 
 ## 5.1 Secure Access
 
-* Login ដោយ PIN
-* Fingerprint Authentication
-* Mobile Credentials
-* Family Access
-* Guest Access
-* Role-Based Permissions
+- Login ដោយ PIN
+- Fingerprint Authentication
+- Mobile Credentials
+- Family Access
+- Guest Access
+- Role-Based Permissions
 
 ## 5.2 Security Modes
 
@@ -201,38 +201,38 @@ Sensors ដែលបានកំណត់សម្រាប់ Security ត្�
 
 ## 5.3 Sensor Monitoring
 
-* Motion Detection
-* Door Monitoring
-* Window Monitoring
-* Glass Break Detection
+- Motion Detection
+- Door Monitoring
+- Window Monitoring
+- Glass Break Detection
 
 ## 5.4 Real-Time Alerts
 
-* Push Notification
-* SMS Alert
-* Local Siren / Alarm
+- Push Notification
+- SMS Alert
+- Local Siren / Alarm
 
 ## 5.5 Remote Access
 
-* ពិនិត្យ System Status
-* Arm / Disarm ពីចម្ងាយ
-* មើល Camera
-* មើល Alerts
-* មើល Event History
+- ពិនិត្យ System Status
+- Arm / Disarm ពីចម្ងាយ
+- មើល Camera
+- មើល Alerts
+- មើល Event History
 
 ## 5.6 Video Surveillance
 
-* Live Camera Streaming
-* Manual Recording
-* Motion-Triggered Recording
-* មើល Recordings ចាស់
+- Live Camera Streaming
+- Manual Recording
+- Motion-Triggered Recording
+- មើល Recordings ចាស់
 
 ## 5.7 Device Management
 
-* Add Device
-* Remove Device
-* Configure Device
-* Check Device Status
+- Add Device
+- Remove Device
+- Configure Device
+- Check Device Status
 
 ---
 
@@ -242,28 +242,28 @@ Use Case គឺជាវិធីបង្ហាញថា **Actor មាន Inte
 
 ## 6.1 Actors
 
-* Homeowner
-* Family Member
-* Guest
-* Administrator
-* IoT Sensors
-* Security Camera
+- Homeowner
+- Family Member
+- Guest
+- Administrator
+- IoT Sensors
+- Security Camera
 
 ## 6.2 Main Use Cases
 
-* Login
-* Arm System
-* Disarm System
-* Select Security Mode
-* View Camera
-* Record Video
-* Detect Intruder
-* Trigger Alarm
-* Send Notification
-* View Event History
-* Configure System
-* Manage Users
-* Manage Devices
+- Login
+- Arm System
+- Disarm System
+- Select Security Mode
+- View Camera
+- Record Video
+- Detect Intruder
+- Trigger Alarm
+- Send Notification
+- View Event History
+- Configure System
+- Manage Users
+- Manage Devices
 
 ## 6.3 Core Intrusion Workflow
 
@@ -287,10 +287,10 @@ Activate Alarm
 
 ## 6.4 Relationship សំខាន់ៗ
 
-* Homeowner មាន Interaction ជាមួយ Login, Arm/Disarm, Camera, Alerts និង Recordings។
-* Admin គ្រប់គ្រង Users និង Devices។
-* Sensors ជា Source នៃ Security Events។
-* System ឆ្លើយតបតាម Mode និង Rules ដែលបានកំណត់។
+- Homeowner មាន Interaction ជាមួយ Login, Arm/Disarm, Camera, Alerts និង Recordings។
+- Admin គ្រប់គ្រង Users និង Devices។
+- Sensors ជា Source នៃ Security Events។
+- System ឆ្លើយតបតាម Mode និង Rules ដែលបានកំណត់។
 
 ---
 
@@ -316,10 +316,10 @@ System ត្រូវអនុញ្ញាតឱ្យ User ដែលមាន�
 
 System ត្រូវគាំទ្រ៖
 
-* Home Mode
-* Away Mode
-* Disarm Mode
-* Scheduled Mode
+- Home Mode
+- Away Mode
+- Disarm Mode
+- Scheduled Mode
 
 ### FR-04 – Sensor Monitoring
 
@@ -337,8 +337,8 @@ System ត្រូវ Activate Siren នៅពេលមាន Configured Intrus
 
 System ត្រូវផ្ញើ៖
 
-* Push Notification
-* SMS
+- Push Notification
+- SMS
 
 នៅពេលមាន Security Event។
 
@@ -350,8 +350,8 @@ System ត្រូវផ្តល់ Live Video សម្រាប់ Authorize
 
 System ត្រូវចាប់ផ្តើម Recording ដោយស្វ័យប្រវត្តិនៅពេលមាន៖
 
-* Motion
-* Security Event
+- Motion
+- Security Event
 
 ដែលបានកំណត់។
 
@@ -363,9 +363,9 @@ System ត្រូវរក្សាទុក Security Events សម្រា�
 
 Admin ត្រូវអាច៖
 
-* Add
-* Remove
-* Configure
+- Add
+- Remove
+- Configure
 
 IoT Devices។
 
@@ -373,11 +373,11 @@ IoT Devices។
 
 ត្រូវរក្សាទុក៖
 
-* ប្រភេទ Event
-* Device
-* ថ្ងៃ / ម៉ោង
-* Status
-* Recording ដែលពាក់ព័ន្ធ
+- ប្រភេទ Event
+- Device
+- ថ្ងៃ / ម៉ោង
+- Status
+- Recording ដែលពាក់ព័ន្ធ
 
 ---
 
@@ -389,14 +389,14 @@ Non-Functional Requirements ប្រាប់ថា៖
 
 ## 8.1 Reliability
 
-* Target Availability = **99.9%** ក្នុងលក្ខខណ្ឌដែលបានកំណត់
-* Critical Components គួរគាំទ្រ Backup Power
+- Target Availability = **99.9%** ក្នុងលក្ខខណ្ឌដែលបានកំណត់
+- Critical Components គួរគាំទ្រ Backup Power
 
 ## 8.2 Security
 
-* Authentication និង Authorization
-* ការពារ Data និង Communication ដោយ Encryption
-* អាចកំណត់ AES-256 ជា Project Security Target តាមការរចនា
+- Authentication និង Authorization
+- ការពារ Data និង Communication ដោយ Encryption
+- អាចកំណត់ AES-256 ជា Project Security Target តាមការរចនា
 
 ## 8.3 Performance
 
@@ -414,9 +414,9 @@ Mobile App គួរមាន Interface ងាយយល់ និងត្រូ
 
 System គួរត្រូវបានបែងជា Modules ដើម្បីងាយ៖
 
-* Fix Bug
-* Update Security
-* បន្ថែម Device ប្រភេទថ្មី
+- Fix Bug
+- Update Security
+- បន្ថែម Device ប្រភេទថ្មី
 
 ---
 
@@ -440,13 +440,13 @@ Sensors / Cameras / Alarm
 
 ## 9.2 Components
 
-* Mobile Application
-* Backend / API
-* Local Control Hub
-* Database
-* Sensor Layer
-* Camera Layer
-* Alarm / Notification Layer
+- Mobile Application
+- Backend / API
+- Local Control Hub
+- Database
+- Sensor Layer
+- Camera Layer
+- Alarm / Notification Layer
 
 ## 9.3 Data Entities
 
@@ -508,53 +508,53 @@ HomeSafe ប្រើ **Incremental Development Model** ជា Process Model ស
 
 អត្ថប្រយោជន៍៖
 
-* អភិវឌ្ឍជាផ្នែកៗ
-* Test មួយ Increment ម្តង
-* កាត់បន្ថយ Risk
-* អាចផ្តល់ Version ដែលប្រើបានមុន
-* ងាយបន្ថែម IoT Devices
-* ងាយទទួល Feedback និងកែលម្អ
+- អភិវឌ្ឍជាផ្នែកៗ
+- Test មួយ Increment ម្តង
+- កាត់បន្ថយ Risk
+- អាចផ្តល់ Version ដែលប្រើបានមុន
+- ងាយបន្ថែម IoT Devices
+- ងាយទទួល Feedback និងកែលម្អ
 
 ## 10.2 Increment 1 – Core Foundation
 
-* Local Control Hub
-* Database
-* Authentication
-* Basic Device Control
-* Basic System Status
+- Local Control Hub
+- Database
+- Authentication
+- Basic Device Control
+- Basic System Status
 
 ## 10.3 Increment 2 – Remote Access
 
-* Mobile Application
-* Wireless / Network Connectivity
-* Remote Access
-* Remote Arm / Disarm
-* Device Status
+- Mobile Application
+- Wireless / Network Connectivity
+- Remote Access
+- Remote Arm / Disarm
+- Device Status
 
 ## 10.4 Increment 3 – Security Monitoring
 
-* Motion Sensor
-* Door / Window Sensors
-* Glass Break Sensor
-* Intrusion Detection
-* Alarm / Siren
+- Motion Sensor
+- Door / Window Sensors
+- Glass Break Sensor
+- Intrusion Detection
+- Alarm / Siren
 
 ## 10.5 Increment 4 – Surveillance
 
-* Security Camera
-* Live Streaming
-* Motion-Triggered Recording
-* Video Storage
-* Recording History
+- Security Camera
+- Live Streaming
+- Motion-Triggered Recording
+- Video Storage
+- Recording History
 
 ## 10.6 Increment 5 – Alerts and Automation
 
-* Push Notification
-* SMS Alert
-* Scheduled Arming / Disarming
-* Automation Rules
-* Event History
-* Device Management
+- Push Notification
+- SMS Alert
+- Scheduled Arming / Disarming
+- Automation Rules
+- Event History
+- Device Management
 
 ---
 
@@ -564,11 +564,11 @@ HomeSafe ប្រើ **Incremental Development Model** ជា Process Model ស
 
 ប្រើសម្រាប់សាកល្បង៖
 
-* Hardware Compatibility
-* UI Concept
-* Sensor Communication
-* Camera Integration
-* Alarm
+- Hardware Compatibility
+- UI Concept
+- Sensor Communication
+- Camera Integration
+- Alarm
 
 មុនពេល Build ប្រព័ន្ធពេញលេញ។
 
@@ -576,12 +576,12 @@ HomeSafe ប្រើ **Incremental Development Model** ជា Process Model ស
 
 ប្រើ៖
 
-* Short Sprints
-* Planning
-* Development
-* Testing
-* Review
-* Feedback
+- Short Sprints
+- Planning
+- Development
+- Testing
+- Review
+- Feedback
 
 ឧទាហរណ៍៖
 
@@ -597,15 +597,15 @@ Sprint 5 → Notification
 
 ប្រើសម្រាប់៖
 
-* Verification
-* Validation
+- Verification
+- Validation
 
 នៃ Security Features សំខាន់ៗ ដូចជា៖
 
-* Authentication
-* Intrusion Detection
-* Alarm
-* Notification
+- Authentication
+- Intrusion Detection
+- Alarm
+- Notification
 
 ```text
 Requirement
@@ -623,10 +623,10 @@ Testing
 
 ## 12.1 ប្រភេទ Testing
 
-* **Unit Testing** – Test Function តូចៗ ដូចជា Login
-* **Integration Testing** – Test Sensor → Hub → Alarm
-* **System Testing** – Test Workflow ទាំងមូល
-* **Acceptance Testing** – User ពិនិត្យថា System បំពេញ Requirements ឬអត់
+- **Unit Testing** – Test Function តូចៗ ដូចជា Login
+- **Integration Testing** – Test Sensor → Hub → Alarm
+- **System Testing** – Test Workflow ទាំងមូល
+- **Acceptance Testing** – User ពិនិត្យថា System បំពេញ Requirements ឬអត់
 
 ## 12.2 ឧទាហរណ៍ Test Cases
 
@@ -674,9 +674,9 @@ Sensor អាច Trigger ខុស។
 
 **ដំណោះស្រាយ៖**
 
-* កំណត់ Sensitivity
-* Detection Rules
-* Event Verification
+- កំណត់ Sensitivity
+- Detection Rules
+- Event Verification
 
 តាមការរចនា។
 
@@ -688,11 +688,11 @@ Sensor អាច Trigger ខុស។
 
 **ដំណោះស្រាយ៖**
 
-* Authentication
-* Role-Based Authorization
-* Encryption
-* Logging
-* Security Updates
+- Authentication
+- Role-Based Authorization
+- Encryption
+- Logging
+- Security Updates
 
 ---
 
@@ -709,14 +709,14 @@ Sensor អាច Trigger ខុស។
 
 # 15. Maintenance
 
-* Fix Bugs
-* Security Updates
-* IoT Device Updates
-* Database Backup / Recovery
-* Performance Monitoring
-* Log Review
-* Support New Devices
-* Feature Improvements
+- Fix Bugs
+- Security Updates
+- IoT Device Updates
+- Database Backup / Recovery
+- Performance Monitoring
+- Log Review
+- Support New Devices
+- Feature Improvements
 
 ---
 
@@ -752,18 +752,18 @@ Maintenance
 
 ## 16.1 អត្ថន័យរបស់ជំហាននីមួយៗ
 
-* **Problem** – កំណត់បញ្ហាដែលត្រូវដោះស្រាយ។
-* **Objectives** – កំណត់អ្វីដែល Project ចង់សម្រេច។
-* **Scope** – កំណត់អ្វីមាន និងមិនមានក្នុង Project។
-* **URS** – កំណត់អ្វីដែល User ត្រូវការ។
-* **Use Case** – បង្ហាញ User / Actor Interaction ជាមួយ System។
-* **SRS** – កំណត់អ្វីដែល Software ត្រូវធ្វើ។
-* **Design** – កំណត់របៀបដែល System នឹងត្រូវសាងសង់។
-* **Process Model** – កំណត់របៀបរៀបចំ និងដំណើរការ Development។
-* **Development** – សរសេរ និងបង្កើត System។
-* **Testing** – ពិនិត្យថា System ដំណើរការត្រឹមត្រូវ។
-* **Deployment** – ដាក់ System ឱ្យប្រើប្រាស់។
-* **Maintenance** – កែ Bug, Update និងបន្ថែមមុខងារ។
+- **Problem** – កំណត់បញ្ហាដែលត្រូវដោះស្រាយ។
+- **Objectives** – កំណត់អ្វីដែល Project ចង់សម្រេច។
+- **Scope** – កំណត់អ្វីមាន និងមិនមានក្នុង Project។
+- **URS** – កំណត់អ្វីដែល User ត្រូវការ។
+- **Use Case** – បង្ហាញ User / Actor Interaction ជាមួយ System។
+- **SRS** – កំណត់អ្វីដែល Software ត្រូវធ្វើ។
+- **Design** – កំណត់របៀបដែល System នឹងត្រូវសាងសង់។
+- **Process Model** – កំណត់របៀបរៀបចំ និងដំណើរការ Development។
+- **Development** – សរសេរ និងបង្កើត System។
+- **Testing** – ពិនិត្យថា System ដំណើរការត្រឹមត្រូវ។
+- **Deployment** – ដាក់ System ឱ្យប្រើប្រាស់។
+- **Maintenance** – កែ Bug, Update និងបន្ថែមមុខងារ។
 
 ---
 
@@ -771,23 +771,23 @@ Maintenance
 
 HomeSafe Smart Security គឺជាប្រព័ន្ធ Smart Home Security ដែលប្រើប្រាស់ IoT ដើម្បីផ្តល់៖
 
-* Secure Access
-* Continuous Sensor Monitoring
-* Real-Time Alerts
-* Remote Control
-* Video Surveillance
-* Home / Away / Disarm Modes
-* User Roles
-* Automated Responses
-* Security Event Management
+- Secure Access
+- Continuous Sensor Monitoring
+- Real-Time Alerts
+- Remote Control
+- Video Surveillance
+- Home / Away / Disarm Modes
+- User Roles
+- Automated Responses
+- Security Event Management
 
 **Incremental Development Model** ត្រូវបានជ្រើសរើសជាម៉ូដែលសំខាន់ ព្រោះ Features របស់ HomeSafe អាចអភិវឌ្ឍ និង Test ជាផ្នែកៗ។
 
 បន្ថែមពីនេះ៖
 
-* **Prototype Model** ជួយសាកល្បង Hardware និង UI មុន
-* **Agile Scrum** ជួយឱ្យ Development មានភាពបត់បែន និងទទួល Feedback
-* **V-Model Principles** ជួយ Verification និង Validation នៃ Security Features សំខាន់ៗ
+- **Prototype Model** ជួយសាកល្បង Hardware និង UI មុន
+- **Agile Scrum** ជួយឱ្យ Development មានភាពបត់បែន និងទទួល Feedback
+- **V-Model Principles** ជួយ Verification និង Validation នៃ Security Features សំខាន់ៗ
 
 គោលដៅចុងក្រោយគឺបង្កើតប្រព័ន្ធដែលមាន៖
 
