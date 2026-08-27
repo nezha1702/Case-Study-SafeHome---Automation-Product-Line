@@ -7,7 +7,7 @@
 The **SafeHome Automation System** is a smart home security system that enables homeowners to monitor, control, and protect their homes using sensors, cameras, alarms, and a integrated mobile or web application.
 
 ---
-
+---
 ### 2. Recommended Process Model
 
 An **Iterative/Incremental Process Model** is recommended for this project. The system is built feature-by-feature, allowing each increment to be analyzed, designed, developed, tested, and improved systematically.
