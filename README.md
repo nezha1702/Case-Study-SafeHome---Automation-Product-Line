@@ -29,12 +29,11 @@ For example, a team may have one repository for a university project:
 Project Repository
 │
 ├── README.md
-├── docs/
-│   ├── requirements.md
-│   ├── design.md
-│   └── testing.md
+├── Diagram/
+│   ├── use_case.md
+│   └── class_diagram.md
 │
-└── src/
+└── SRS/
 ```
 
 Each team member can:
