@@ -15,13 +15,13 @@ HomeSafe ប្រើ **Agile Scrum** ជា Model គាំទ្រ (Supportin
 
 ### Sprint Breakdown
 
-| Sprint | Feature |
-|---|---|
-| Sprint 1 | Login (Authentication) |
-| Sprint 2 | Arm / Disarm |
+| Sprint   | Feature                                    |
+| -------- | ------------------------------------------ |
+| Sprint 1 | Login (Authentication)                     |
+| Sprint 2 | Arm / Disarm                               |
 | Sprint 3 | Sensors (Motion, Door/Window, Glass-Break) |
-| Sprint 4 | Camera (Live Streaming, Recording) |
-| Sprint 5 | Notification (Push, SMS) |
+| Sprint 4 | Camera (Live Streaming, Recording)         |
+| Sprint 5 | Notification (Push, SMS)                   |
 
 Rhythm របស់ Sprint នីមួយៗ: **Planning → Development → Testing → Review → Feedback**។
 
@@ -33,14 +33,14 @@ Rhythm របស់ Sprint នីមួយៗ: **Planning → Development → Te
 
 ## Agile vs Plan-Driven — Quick Comparison
 
-| | Agile | Plan-Driven |
-|---|---|---|
-| Requirements | អាចផ្លាស់ប្តូរបាន | កំណត់ជាប់ពីដើម |
-| Documentation | តិចតួច, គ្រាន់តែគ្រប់គ្រាន់ | ច្រើន, លម្អិត |
-| ការផ្លាស់ប្តូរ (Change) | ទទួលយកបានគ្រប់ពេល | មានតម្លៃថ្លៃពេលយឺត |
-| សមស្របសម្រាប់ | Scope មិនច្បាស់ / User-facing features | Safety-critical, Scope ស្ថិរភាព |
-| ប្រើនៅក្នុង HomeSafe | Agile Scrum (Login, Arm/Disarm, Sensors, Camera, Notification sprints) | V-Model (Authentication, Intrusion Detection, Alarm, Notification verification) — សូមមើល `plan_dirven.md` |
+|                         | Agile                                                                  | Plan-Driven                                                                                               |
+| ----------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Requirements            | អាចផ្លាស់ប្តូរបាន                                                      | កំណត់ជាប់ពីដើម                                                                                            |
+| Documentation           | តិចតួច, គ្រាន់តែគ្រប់គ្រាន់                                            | ច្រើន, លម្អិត                                                                                             |
+| ការផ្លាស់ប្តូរ (Change) | ទទួលយកបានគ្រប់ពេល                                                      | មានតម្លៃថ្លៃពេលយឺត                                                                                        |
+| សមស្របសម្រាប់           | Scope មិនច្បាស់ / User-facing features                                 | Safety-critical, Scope ស្ថិរភាព                                                                           |
+| ប្រើនៅក្នុង HomeSafe    | Agile Scrum (Login, Arm/Disarm, Sensors, Camera, Notification sprints) | V-Model (Authentication, Intrusion Detection, Alarm, Notification verification) — សូមមើល `plan_dirven.md` |
 
 ## Reference
 
-ចម្លងចេញពី Section 11.2 (Agile Scrum) នៃឯកសារ *HomeSafe Smart Security — Software Engineering Case Study*।
+ចម្លងចេញពី Section 11.2 (Agile Scrum) នៃឯកសារ _HomeSafe Smart Security — Software Engineering Case Study_।
